@@ -1185,7 +1185,7 @@ let cron = require('node-cron')
                                 "h": `Miku`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
-                                'caption': `Fantox`,
+                                'caption': `sam`,
                                 'jpegThumbnail': fs.readFileSync('./Assets/miku.mp4')
                                        }
                                       }
@@ -1330,7 +1330,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: sam to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1360,7 +1360,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
+    ©️ *${global.BotName}* All Rights Reserved by: *sam*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1485,13 +1485,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
+https://chat.whatsapp.com/KUB6R2AExiX9WRvHO8PZjn
 
 *GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+soon
 
 *GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+soon`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1505,12 +1505,12 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* http://gg.gg/Miku-SP`)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
+    reply(`*My Source Code:* Private for now`)
     break
 
 case 'nsfwmenu':
@@ -4812,7 +4812,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *Miku Nakano*, a bot developed by *sam*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4826,7 +4826,7 @@ speak, miku, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, s
  
  *━━━〈  🎀 Owner 🎀  〉━━━*
 
-self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
+self, public, ban, bangroup, join, bye, block, unblock, broadcast 
 
  *━━━〈  ⭕ Group ⭕  〉━━━*
  
@@ -4886,7 +4886,7 @@ qr, say, translate, fliptext, toletter
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *sam*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
